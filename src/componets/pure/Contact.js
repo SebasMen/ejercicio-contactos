@@ -8,7 +8,7 @@ const Contact = ({ contact }) => {
       <h1>Nombre: { contact.name }</h1>
       <h2>Nombre: { contact.lastname }</h2>
       <h3>Email: { contact.email }</h3>
-      <h4>Conectado: { (contact.connected) ? 'Conected' : 'Disconected' }</h4>
+      <h4>Conectado: { (contact.connected) ? 'Connected' : 'Disconnected' }</h4>
     </>
   )
 }
