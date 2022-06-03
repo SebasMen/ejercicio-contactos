@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { TaskClass } from '../../models/task.class'
 
 const Task = ({ task }) => {
+
+  useEffect(() => {
+    console.log("Created task");
+  
+    return () => {
+      console.log(`Task: ${task.name} is going to unmount`);
+    }
+  }, [task]);
+  
+
   return (
     <div>
         <h2>Nombre: { task.name }</h2>
