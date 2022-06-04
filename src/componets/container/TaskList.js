@@ -3,6 +3,8 @@ import { LEVELS } from '../../models/levels.enum';
 import { TaskClass } from '../../models/task.class';
 import Task from '../pure/Task';
 
+import '../../styles/task.scss';
+
 const TaskList = props => {
 
   const defaultTask = new TaskClass('Example', 'Tarea de ejemplo', false, LEVELS.NORMAL);

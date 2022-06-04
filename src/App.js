@@ -5,11 +5,12 @@ import UseState from './hooks/UseState';
 import UseEffect from './hooks/UseEffect';
 import ComponenteContext from './hooks/UseContext';
 import PropsChildren from './hooks/PropsChildren';
+import GreetingStyled from './componets/pure/GreetingStyled';
 
 function App() {
   return (
     <div className="App">
-      <TaskList />
+      {/* <TaskList />
       <hr />
       <Contacts />
       <hr />
@@ -23,7 +24,8 @@ function App() {
         <h3>
           Contenido del props.chlidren
         </h3>
-      </PropsChildren>
+      </PropsChildren> */}
+      <GreetingStyled name="Sebastian" />
     </div>
   );
 }

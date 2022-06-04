@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { TaskClass } from '../../models/task.class'
 
+import "../../styles/task.scss";
+
 const Task = ({ task }) => {
 
   useEffect(() => {
@@ -15,7 +17,7 @@ const Task = ({ task }) => {
 
   return (
     <div>
-        <h2>Nombre: { task.name }</h2>
+        <h2 className='task-name'>Nombre: { task.name }</h2>
         <h3>Descripción: { task.description }</h3>
         <h4>Nivel: { task.level }</h4>
         <h5>
