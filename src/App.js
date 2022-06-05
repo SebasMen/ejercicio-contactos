@@ -6,12 +6,13 @@ import UseEffect from './hooks/UseEffect';
 import ComponenteContext from './hooks/UseContext';
 import PropsChildren from './hooks/PropsChildren';
 import GreetingStyled from './componets/pure/GreetingStyled';
+import Events from './componets/container/Events';
 
 function App() {
   return (
     <div className="App">
-      {/* <TaskList />
-      <hr />
+      {/* <TaskList /> */}
+      {/* <hr />
       <Contacts />
       <hr />
       <UseState />
@@ -24,8 +25,9 @@ function App() {
         <h3>
           Contenido del props.chlidren
         </h3>
-      </PropsChildren> */}
-      <GreetingStyled name="Sebastian" />
+      </PropsChildren>
+      <GreetingStyled name="Sebastian" /> */}
+      <Events />
     </div>
   );
 }
