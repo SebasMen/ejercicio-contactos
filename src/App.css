@@ -1,7 +1,8 @@
-.App {
-  /* color: white; */
-  text-align: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto; 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: aliceblue;
 }
